@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
+import Rsvp from "./rsvp";
 
 type Props = object;
 
@@ -43,16 +44,7 @@ function Hero({}: Props) {
                 <span className="text-text/90 text-sm">
                   For ages 13 to 18. Starts Jul 31st, 2026
                 </span>
-                <div className="mb-2 flex h-12 items-end gap-2">
-                  <Input
-                    placeholder="Email@example.com"
-                    className="border-secondary h-full border"
-                  />
-                  <Button className="bg-secondary h-full w-30 cursor-pointer">
-                    RSVP
-                  </Button>
-                </div>
-
+                <Rsvp />
                 <button className="cursor-pointer text-center font-semibold underline">
                   Already have an account? Log in
                 </button>

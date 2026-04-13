@@ -13,7 +13,7 @@ export default function HomePage() {
         </div>
 
         {/* Header stripes */}
-        <div className="relative z-50 mt-5 flex h-17 w-full scale-150 items-center bg-[url(/header_strip.png)] bg-center bg-repeat"></div>
+        <div className="relative z-50 mt-5 flex h-17 w-full scale-150 items-center bg-[url(/header_strip.png)] bg-center bg-repeat p-0"></div>
       </div>
 
       {/* Hero */}

@@ -12,14 +12,17 @@ type Props = object;
 function Faq({}: Props) {
   const FAQ = [
     {
-      question: "How are coins calculated?",
-      answer:
-        "After submitting. Your project gets voted on by 10 other hackers. After getting your vote rate with Elo-based approach. It’s divided by the KB size of your program. I.e. If you get a 9.8 rate and your app is 1.4 KBs. Then your final rate is 7. For each rate point you get 10 coins. so 70 coins!",
+      question: "How are Tickets calculated?",
+      answer: `You submit a project, get it community-voted on. Voting is Elo-based, with two main factors:
+creativity/originality (1-5) and Execution (1-5) compared to projects in the same hour range bracket.
+The formula: (40% _ creativity_score + 60% _ execution_score) * $1.5.
+Translation: Lower bound is $1.5/hr, upper bound is $7.5/hr, mean: ~$4
+The program uses "Tickets" as its currency at 10 Tickets / $1 rate. (i.e. avg payout is 40 tickets) (The
+exact ratios and factors will be dynamically corrected as the program goes to ensure fairness).`,
     },
     {
-      question: "How much is a coin worth?",
-      answer:
-        "Each accepted hour is worth 10 coins. You can exchange those coins around ~$5 per 10 coins",
+      question: "How much is a Ticket worth?",
+      answer: "Each 10 Tickets are worth 1 USD",
     },
     {
       question: "I don’t know software, can I still try",
@@ -29,12 +32,12 @@ function Faq({}: Props) {
     {
       question: "Wait, What’s the point?",
       answer:
-        "Develoeprs just neglect optimizations nowadays. Even frown upon micro optimizations (unless Linus Torvalds is the one doing it). So in this ysws, we bring back this notion of micro optimization where you will learn WAY more than building an extra feature",
+        "Developers can quite under/over estimate how complex a product really is before they build it. Whenever this happens, it's a big learning moment",
     },
     {
       question: "I have more questions",
       answer:
-        "Absolutely, just RSVP for now and join #nanoship channel. You can ask your questions there",
+        "Absolutely, just RSVP for now and when it launches, You can ask your questions there or just dm me on slack @amrbassem218",
     },
   ];
   const [openedFaq, setOpenedFaq] = useState<number | null>(null);

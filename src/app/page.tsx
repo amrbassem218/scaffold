@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import Hero from "~/components/hero";
+import Stages from "~/components/stages";
 
 export default function HomePage() {
   return (
-    <main className="relative h-screen bg-green-500">
+    <main className="bg-background relative h-screen">
       {/* Header */}
       <div>
         {/* Logo */}
@@ -18,6 +19,7 @@ export default function HomePage() {
 
       {/* Hero */}
       <Hero />
+      <Stages />
     </main>
   );
 }

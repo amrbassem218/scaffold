@@ -1,6 +1,4 @@
 import Image from "next/image";
-import { Button } from "./ui/button";
-import { Input } from "./ui/input";
 import Rsvp from "./rsvp";
 
 type Props = object;

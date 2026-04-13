@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-type Props = {};
+type Props = object;
 
 function Stages({}: Props) {
   return (

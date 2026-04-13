@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Faq from "~/components/faq";
 import Hero from "~/components/hero";
 import Stages from "~/components/stages";

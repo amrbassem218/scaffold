@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 
-type Props = {};
+type Props = object;
 
 function Hero({}: Props) {
   return (

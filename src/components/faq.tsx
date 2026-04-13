@@ -7,7 +7,7 @@ import {
 } from "./ui/collapsible";
 import { Separator } from "./ui/separator";
 
-type Props = {};
+type Props = object;
 
 function Faq({}: Props) {
   const FAQ = [
@@ -48,10 +48,9 @@ function Faq({}: Props) {
 
       <div>
         {FAQ.map((ques, i) => (
-          <div className="w-full">
+          <div key={i} className="w-full">
             {i > 0 && <Separator className="bg-muted-foreground my-3" />}
             <Collapsible
-              key={i}
               className="w-full space-y-2"
               open={openedFaq === i}
               onOpenChange={(e) => (e ? setOpenedFaq(i) : setOpenedFaq(null))}

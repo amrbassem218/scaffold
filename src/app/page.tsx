@@ -5,7 +5,7 @@ import Stages from "~/components/stages";
 
 export default function HomePage() {
   return (
-    <main className="bg-background relative h-screen">
+    <main className="bg-background relative pb-5">
       {/* Header */}
       <div>
         {/* Logo */}
@@ -21,6 +21,17 @@ export default function HomePage() {
       <Hero />
       <Stages />
       <Faq />
+      <footer className="text-center">
+        <span>
+          Made with Love by{" "}
+          <a
+            className="text-blue-500 underline"
+            href="https://github.com/amrbassem218"
+          >
+            Amr
+          </a>
+        </span>
+      </footer>
     </main>
   );
 }

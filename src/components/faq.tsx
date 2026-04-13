@@ -42,7 +42,7 @@ exact ratios and factors will be dynamically corrected as the program goes to en
   ];
   const [openedFaq, setOpenedFaq] = useState<number | null>(null);
   return (
-    <div className="mx-auto w-full max-w-200 space-y-3">
+    <div className="mx-auto mb-5 w-full max-w-200 space-y-3">
       {/* Header */}
       <div className="mx-auto flex justify-center gap-1 text-center font-bold">
         {/* TODO: Replace with ASCII arrow art */}

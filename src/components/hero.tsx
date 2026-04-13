@@ -44,7 +44,10 @@ function Hero({}: Props) {
                   For ages 13 to 18. Starts Jul 31st, 2026
                 </span>
                 <div className="mb-2 flex h-12 items-end gap-2">
-                  <Input placeholder="Email@example.com" className="h-full" />
+                  <Input
+                    placeholder="Email@example.com"
+                    className="border-secondary h-full border"
+                  />
                   <Button className="bg-secondary h-full w-30 cursor-pointer">
                     RSVP
                   </Button>

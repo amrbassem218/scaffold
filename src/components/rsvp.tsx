@@ -31,7 +31,7 @@ function Rsvp() {
     >
       <Input
         placeholder="Email@example.com"
-        className="border-secondary h-full border"
+        className="border-secondary h-full border opacity-65"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />

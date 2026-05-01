@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Faq from "~/components/faq";
 import Hero from "~/components/hero";
+import Prizes from "~/components/prizes";
 import Stages from "~/components/stages";
 
 export default function HomePage() {
@@ -21,6 +22,7 @@ export default function HomePage() {
       <Hero />
       <Stages />
       <Faq />
+      {/* <Prizes /> */}
       <footer className="text-center">
         <span>
           Made with Love by{" "}

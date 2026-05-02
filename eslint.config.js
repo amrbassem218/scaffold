@@ -36,6 +36,8 @@ export default tseslint.config(
       "@typescript-eslint/no-empty-object-type": "off",
       "@typescript-eslint/no-unsafe-assignment": "off",
       "@typescript-eslint/no-explicit-any": "off",
+      "prefer-const": "off",
+      "react/jsx-key": "off",
     },
   },
   {

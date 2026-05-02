@@ -40,6 +40,7 @@ function Hero({}: Props) {
         <div className="origin-top-left skew-y-[3deg] p-10 pt-20"></div>
       </div>
 
+      {/* Here is how it works */}
       <div className="absolute bottom-17 w-full skew-y-[-3deg]">
         <Marquee>
           <div className="flex items-center justify-center">
@@ -65,6 +66,8 @@ function Hero({}: Props) {
           Here is how it works!
         </h2>
       </div>
+
+      {/* Main hero */}
       <div className="absolute inset-0 z-10 mx-auto flex max-w-400 px-20 pt-30">
         <section>
           {/* Main section */}

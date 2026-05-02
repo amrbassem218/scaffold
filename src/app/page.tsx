@@ -21,6 +21,8 @@ export default function HomePage() {
       {/* Hero */}
       <Hero />
       <Stages />
+
+      <Prizes />
       <Faq />
       {/* <Prizes /> */}
       <footer className="text-center">

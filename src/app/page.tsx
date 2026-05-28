@@ -6,7 +6,7 @@ import Stages from "~/components/stages";
 
 export default function HomePage() {
   return (
-    <main className="bg-background relative pb-5">
+    <main className="bg-background relative overflow-x-clip pb-5">
       {/* Header */}
       <div>
         {/* Logo */}
@@ -15,7 +15,7 @@ export default function HomePage() {
         </div>
 
         {/* Header stripes */}
-        <div className="relative z-50 mt-5 flex h-17 w-full scale-150 items-center bg-[url(/header_strip.png)] bg-center bg-repeat p-0"></div>
+        <div className="relative z-50 mt-5 flex h-17 w-full items-center bg-[url(/header_strip.png)] bg-center bg-repeat p-0"></div>
       </div>
 
       {/* Hero */}

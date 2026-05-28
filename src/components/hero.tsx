@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Rsvp from "./rsvp";
 import Marquee from "react-fast-marquee";
+import ComingSoon from "./comingSoon";
 type Props = object;
 
 function Hero({}: Props) {
@@ -88,9 +89,13 @@ function Hero({}: Props) {
                   For ages 13 to 18. Starts Jul 31st, 2026
                 </span>
                 <Rsvp />
-                <button className="cursor-pointer text-center font-semibold underline">
-                  Already have an account? Log in
-                </button>
+                <ComingSoon>
+                  <span>
+                    <button className="cursor-pointer text-center font-semibold underline">
+                      Already have an account? Log in
+                    </button>
+                  </span>
+                </ComingSoon>
               </div>
             </div>
 
